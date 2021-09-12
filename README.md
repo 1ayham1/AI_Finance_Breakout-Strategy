@@ -50,7 +50,24 @@ Lookahead Close Prices
 Lookahead Price Returns (the log price return between the closing price and the lookahead price)
 ![retrurn](/images/return.png)
 
+Using the price returns generate the signal returns
+![signal_return](/images/signal_return.png)
 
+**Test for Significance**
+
+To better visualize the outliers, we compare the 5, 10, and 20 day signals returns to normal distributions with the same mean and deviation for each signal return distributions.
+
+![histo](images/histo.png)
+
+`Kolmogorov-Smirnov Test`
+is used to quantify the outliers in the histogram; i.e. finds the stocks that are causing these outlying returns. 
+The test (KS test) is performed between a distribution of stock returns (the input dataframe in this case) and each stock's signal returns.
+
+compare the 5, 10, and 20 day signals returns without outliers to normal distributions.
+![out](/images/out.png)
+
+
+> The returns are closer to a normal distribution
 
 
 
