@@ -33,6 +33,15 @@ Assuming that the first three steps area already done ("observe & research", "fo
 
 The price highs and lows are used as an indicator for the breakout strategy. 
 
+sample result for the highs and lows for the past 50 days in compararison to its respective stock.
+![image](/images/high_low.png)  
+
+sample long-short signals
+
+![ls_10](/images/long_short_10.png)
+
+![ls_10](/images/long_short_20.png)
+
 
 ## Install Requirements
 `!{sys.executable} -m pip install -r requirements.txt`
