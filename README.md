@@ -43,6 +43,17 @@ sample long-short signals
 ![ls_10](/images/long_short_20.png)
 
 
+Lookahead Close Prices
+
+![look_ahead](/images/look_ahead.png)
+
+Lookahead Price Returns (the log price return between the closing price and the lookahead price)
+![retrurn](/images/return.png)
+
+
+
+
+
 ## Install Requirements
 `!{sys.executable} -m pip install -r requirements.txt`
 
